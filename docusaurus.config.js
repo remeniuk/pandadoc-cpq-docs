@@ -44,7 +44,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'PandaDoc CPQ',
+        title: 'for CPQ',
         logo: {
           alt: 'PandaDoc Logo',
           src: 'img/logo.png', // Adjusted path
@@ -57,11 +57,16 @@ const config = {
             label: 'Documentation',
           },
           {
+            to: '/video-guides', // This is a direct page, not a sidebar
+            label: 'Video Guides',
+            position: 'left',
+          },            
+          {
             type: 'docSidebar',
             sidebarId: 'releaseNotesSidebar', // Sidebar for release notes
             position: 'left',
             label: 'Release Notes',
-          },
+          },        
         ],
       },
       footer: {

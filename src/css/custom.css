@@ -1,17 +1,76 @@
+@import url("https://db.onlinewebfonts.com/c/575fc498ad34ad0f411e618dad9ed36a?family=Graphik+LC+Web+Regular");
+@import url('https://db.onlinewebfonts.com/c/042fdc0ad9bf83440df6afe1bbadf684?family=Graphik+LC+Web+Bold+Regular');
+
 :root {
-  --font-family-primary: 'Inter', Arial, sans-serif;
+  --ifm-font-family-base: "Graphik LC Web Regular", sans-serif;
   --color-primary: #000000;
   --color-secondary: #000000;
   --color-accent: #4CAF50;
-  --background-light: #F9FAFB;
   --border-color: #E0E0E0;
+}
+
+[data-doc-id="video-guides"] .theme-doc-sidebar-container {
+  display: none !important;
+}
+
+[data-doc-id="video-guides"] .theme-doc-toc-desktop {
+  display: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Graphik LC Web Bold Regular", sans-serif;
+}
+
+.navbar {
+  background-color: #cdddd9 !important;
+}
+
+.menu__link--active {
+  color: black !important;
+}
+
+.menu__link:hover {
+  color: black !important;
+}
+
+.breadcrumbs__link {
+  color: black !important;
+}
+
+.navbar__item {
+  color: #000000;
+  font-weight: 600;
+}
+
+.navbar__link {
+  font-size: 14px !important;
+  color: #000000;
+  font-weight: 600;
+}
+
+.lightToggleIcon_pyhR {
+  display: none !important;
+}
+
+.table-of-contents__link--active {
+  color: #000000 !important;
+}
+
+.pagination-nav__label {
+  color: #000000 !important;
+}
+
+.navbar__title {
+  font-size: 15px !important;
+  font-weight: 600;
+  color: rgb(77, 74, 74) !important;
+  margin-left: -4px;
 }
 
 .img_ev3q {
   border-radius: 10px; /* Rounds the corners */
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1); /* Adds a light shadow */
   margin: 20px 0; /* Adds space above and below the image */
-  width: 90%; /* Scales the image down to 90% of its original size */
   display: block; /* Ensures proper spacing and layout */
   margin-left: auto; /* Centers the image horizontally */
   margin-right: auto; /* Centers the image horizontally */
@@ -28,13 +87,13 @@ body {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 32px;
   font-weight: bold;
   margin-bottom: 16px;
 }
 
 .menu__link {
-  font-size: 15px;
+  font-size: 14px;
 }
 
 

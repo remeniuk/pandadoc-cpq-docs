@@ -46,4 +46,3 @@ Now, the **PandaDoc Workflows card** is visible in the Overview tab for all deal
 
 Once set up, you can use **PandaDoc CPQ workflows** inside HubSpot for **generating quotes, approvals, and contract creation**.
 
-For more details, check out our **[Full Integration Guide](<insert-link-here>)**.

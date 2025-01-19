@@ -66,7 +66,27 @@ const config = {
             sidebarId: 'releaseNotesSidebar', // Sidebar for release notes
             position: 'left',
             label: 'Release Notes',
-          },        
+          },  
+          { 
+            label: 'Help Center', 
+            href: 'https://support.pandadoc.com/en/', 
+            position: 'right' 
+          },
+          { 
+            label: 'Training', 
+            href: 'https://learn.pandadoc.com/', 
+            position: 'right' 
+          },
+          { 
+            label: 'Product Updates', 
+            href: 'https://updates.pandadoc.com/', 
+            position: 'right' 
+          },
+          { 
+            label: 'Go to PandaDoc.com', 
+            href: 'https://pandadoc.com/', 
+            position: 'right' 
+          },                
         ],
       },
       footer: {

@@ -2,6 +2,7 @@
 title: Quick Start Guide
 sidebar_position: 1
 description: Get started with our CPQ solution in 5-10 minutes
+slug: /
 ---
 
 # Quick Start Guide: CPQ Setup

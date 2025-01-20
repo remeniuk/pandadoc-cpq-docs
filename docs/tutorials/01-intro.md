@@ -1,6 +1,5 @@
 ---
 title: Introduction
-slug: /
 ---
 
 # PandaDoc CPQ Implementation Guide

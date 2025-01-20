@@ -1,5 +1,7 @@
 ---
-title: Setting Up Rules
+title: Set up Quote Rules
+sidebar_position: 6
+description: Set up Quote Rules - Step 6 of the workflow setup process
 ---
 
 # Setting Up Rules in the Quote

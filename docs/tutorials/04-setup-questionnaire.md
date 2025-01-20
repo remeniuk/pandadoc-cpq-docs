@@ -1,5 +1,7 @@
 ---
-title: Setting Up a Guided Selling
+title: Set up a Questionnaire
+sidebar_position: 4
+description: Set up a Questionnaire - Step 4 of the workflow setup process
 ---
 
 # Setting Up a Guided Selling Questionnaire

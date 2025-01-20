@@ -1,5 +1,7 @@
 ---
-title: Testing the Workflow
+title: Test and Run Your Workflow
+sidebar_position: 8
+description: Test and Run Your Workflow - Step 8 of the workflow setup process
 ---
 
 # Final Step: Testing the Workflow

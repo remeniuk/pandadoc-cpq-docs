@@ -1,5 +1,7 @@
 ---
-title: Generating the Document
+title: Create and Send the Document
+sidebar_position: 7
+description: Create and Send the Document - Step 7 of the workflow setup process
 ---
 
 # Generating the Document with the Quote

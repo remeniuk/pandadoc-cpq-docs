@@ -27,31 +27,26 @@ This will start a local server at `http://localhost:3000/` with hot-reloading.
 
 ## 📤 Deployment to GitHub Pages
 
-This project is set up to deploy to **GitHub Pages**. Follow these steps to publish updates:
+This project is set up to deploy to **GitHub Pages** automatically using a GitHub Actions pipeline. Any commit pushed to the `main` branch will trigger a workflow that builds and updates the `gh-pages` branch with the latest documentation.
 
-### 1. Build the Static Site
-Run:
+### 📌 Automatic Deployment Pipeline
+- The GitHub Actions workflow (`.github/workflows/deploy.yml`) runs on every push to `main`.
+- It installs dependencies, builds the static site, and pushes updates to the `gh-pages` branch.
+- The latest documentation is automatically published to GitHub Pages.
+
+### 1. Manual Build (Optional)
+If you need to build the static site locally:
 ```sh
 yarn build  # or npm run build
 ```
 This will generate a `build/` folder containing the static files.
 
-### 2. Deploy to GitHub Pages
-If you’re deploying to `gh-pages` branch on GitHub, run:
+### 2. Manual Deployment (Optional)
+If you need to manually deploy to GitHub Pages:
 ```sh
 GIT_USER=<your-github-username> yarn deploy  # or npm run deploy
 ```
 Make sure you have permission to push changes to the repository.
-
-#### 📌 Important Notes:
-- Your repository should have **GitHub Pages** enabled under **Settings > Pages**.
-- The `homepage` field in `docusaurus.config.js` should match your GitHub Pages URL:
-  ```js
-  module.exports = {
-    url: 'https://your-org.github.io',
-    baseUrl: '/pandadoc-cpq-docs/',
-  };
-  ```
 
 ## 🛠 Customization
 

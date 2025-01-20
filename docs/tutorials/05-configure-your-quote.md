@@ -1,5 +1,7 @@
 ---
-title: Configuring the Quote Step
+title: Configure Your Quote
+sidebar_position: 5
+description: Configure Your Quote - Step 5 of the workflow setup process
 ---
 
 # Configuring the Quote Step in Guided Selling

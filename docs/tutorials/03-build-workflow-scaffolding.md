@@ -1,5 +1,7 @@
 ---
-title: Workflow Setup
+title: Establish Workflow Structure
+sidebar_position: 3
+description: Establish Workflow Structure - Step 3 of the workflow setup process
 ---
 
 # Creating an Empty Workflow in PandaDoc

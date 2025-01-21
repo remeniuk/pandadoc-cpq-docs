@@ -800,10 +800,12 @@ This function has no parameters.
 
 ##### example
 
-| formula         | result                                  |
-|-----------------|-----------------------------------------|
-| `=RAND()`       | variable (returns x where 0 <= x < 1)   |
-| `=RAND() * 100` | variable (returns x where 0 <= x < 100) |
+
+| formula         | result                                    |
+|-----------------|-------------------------------------------|
+| `=RAND()`       | `variable (returns x where 0 <= x < 1)`   |
+| `=RAND() * 100` | `variable (returns x where 0 <= x < 100)` |
+
 
 ## RANDBETWEEN
 Returns a random number between two provided values, including the provided values.
@@ -821,8 +823,8 @@ Returns a random number between two provided values, including the provided valu
 
 | formula                    | result                                   |
 |----------------------------|------------------------------------------|
-| `=RANDBETWEEN(1, 2)`       | variable (returns x where 1 <= x <= 2)   |
-| `=RANDBETWEEN(0, 100)`     | variable (returns x where 0 <= x <= 100) |
+| `=RANDBETWEEN(1, 2)`       | `variable (returns x where 1 <= x <= 2)`   |
+| `=RANDBETWEEN(0, 100)`     | `variable (returns x where 0 <= x <= 100)` |
 | `=RANDBETWEEN(1.23, 1.23)` | 1.23                                     |
 
 ## ROMAN

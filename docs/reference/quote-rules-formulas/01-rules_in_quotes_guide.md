@@ -8,13 +8,13 @@ In this guide, we will explore how rules interact with the Quote structure, and 
 The quote consists of multiple sections that hold various line items, totals, and other data. Here’s an outline of what a quote contains:
 
 - **Sections**: Each section represents a distinct part of the quote, such as products, add-ons, and fees.
-    ![sections_in_quote.png](..%2F..%2F..%2F..%2Fstatic%2Fimg%2Fquote%2Fsections_in_quote.png)
+    ![sections_in_quote.png](..%2F..%2F..%2Fstatic%2Fimg%2Fquote%2Fsections_in_quote.png)
 - **Columns**: Each section contains a set of columns (e.g., price, quantity, discount, etc.) and has its own set of totals.
-    ![quote_section_columns.png](..%2F..%2F..%2F..%2Fstatic%2Fimg%2Fquote%2Fquote_section_columns.png)
+    ![quote_section_columns.png](..%2F..%2F..%2Fstatic%2Fimg%2Fquote%2Fquote_section_columns.png)
 - **Grand Total or Quote total**: This is the total of all sections combined, which may include calculated values such as total price, subtotal, total discounts, etc.
-    ![grand_total_or_quote_total.png](..%2F..%2F..%2F..%2Fstatic%2Fimg%2Fquote%2Fgrand_total_or_quote_total.png)
+    ![grand_total_or_quote_total.png](..%2F..%2F..%2Fstatic%2Fimg%2Fquote%2Fgrand_total_or_quote_total.png)
 - **Data Fields or Quote variables**: These are fields that allow you to pass data between steps in a workflow or temporarily store values for calculations.
-    ![quote_data_fields.png](..%2F..%2F..%2F..%2Fstatic%2Fimg%2Fquote%2Fquote_data_fields.png)
+    ![quote_data_fields.png](..%2F..%2F..%2Fstatic%2Fimg%2Fquote%2Fquote_data_fields.png)
 
 ## Sections in the Quote
 
@@ -24,7 +24,7 @@ Each section in the quote has:
 - **Columns**: Specific attributes related to the quote item (e.g., price, quantity, etc.).
 - **Line items** Each section contains a set of products from your catalog or newly created products
 - **Footers/Section Totals**: These are totals specific to the section and can either be default or custom.
-    ![section_details.png](..%2F..%2F..%2F..%2Fstatic%2Fimg%2Fquote%2Fsection_details.png)
+    ![section_details.png](..%2F..%2F..%2Fstatic%2Fimg%2Fquote%2Fsection_details.png)
 
 
 ### Example Sections
@@ -45,7 +45,7 @@ In the **WHEN** part of the rule, we filter data based on certain conditions. Yo
 - Sections (e.g., filtering sections like "products").
 - Line items within a section (e.g., filtering based on quantity, price, etc.).
 - Data fields (e.g., filtering based on custom fields you defined).
-    ![WHEN_clause_filter_by.png](..%2F..%2F..%2F..%2Fstatic%2Fimg%2Frules%2FWHEN_clause_filter_by.png)
+    ![WHEN_clause_filter_by.png](..%2F..%2F..%2Fstatic%2Fimg%2Frules%2FWHEN_clause_filter_by.png)
 
 ### THEN Clause
 
@@ -53,14 +53,14 @@ In the **THEN** part of the rule, actions are performed on the filtered data. Fo
 
 - You can update the section totals or line items that meet the filtering criteria.
 - You can modify values, such as setting the price to 100 or updating the quantity for certain line items.
-    ![THEN_clause_actions.png](..%2F..%2F..%2F..%2Fstatic%2Fimg%2Frules%2FTHEN_clause_actions.png)
+    ![THEN_clause_actions.png](..%2F..%2F..%2Fstatic%2Fimg%2Frules%2FTHEN_clause_actions.png)
 
 **Please remember that you can perform actions on the items that meet the filters specified 
 in the WHEN clause—in other words, on the aliases created in the WHEN clause.** 
-    ![aliases_in_rules.png](..%2F..%2F..%2F..%2Fstatic%2Fimg%2Frules%2Faliases_in_rules.png)
+    ![aliases_in_rules.png](..%2F..%2F..%2Fstatic%2Fimg%2Frules%2Faliases_in_rules.png)
 
 However, you can also perform actions on objects that do not require a filter.
-    ![aliases_not_needed.png](..%2F..%2F..%2F..%2Fstatic%2Fimg%2Frules%2Faliases_not_needed.png)
+    ![aliases_not_needed.png](..%2F..%2F..%2Fstatic%2Fimg%2Frules%2Faliases_not_needed.png)
 
 ## How to Start Building a Rule
 
@@ -69,7 +69,7 @@ However, you can also perform actions on objects that do not require a filter.
 Start by defining your **WHEN** condition. For instance, if you want to filter sections that contain the name "Products," you would set up the filter to match sections with this name.
 
 You can also filter line items within the "Products" section based on conditions such as quantity greater than 1.
-    ![update_line_items_whre_qty_gt_zero.png](..%2F..%2F..%2F..%2Fstatic%2Fimg%2Frules%2Fupdate_line_items_whre_qty_gt_zero.png)
+    ![update_line_items_whre_qty_gt_zero.png](..%2F..%2F..%2Fstatic%2Fimg%2Frules%2Fupdate_line_items_whre_qty_gt_zero.png)
 
 ### Step 2: Define the THEN Action
 

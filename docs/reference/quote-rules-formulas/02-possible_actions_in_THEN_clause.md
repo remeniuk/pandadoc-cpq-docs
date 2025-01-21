@@ -1,6 +1,28 @@
 # Possible actions in THEN clause
 
-This document serves as a comprehensive guide to understanding how rules interact with your quote and how to effectively use them to perform various actions. For a visual walkthrough, check out [this video](https://www.loom.com/share/f06a0769d70d44d5a26dce1fd9c868ca?sid=34d64844-c8a4-4889-b588-0d635ceebc09).
+This document serves as a comprehensive guide to understanding how rules interact with your quote and how to effectively use them to perform various actions. For a visual walkthrough, check out video below:
+
+<div 
+  style={{
+    position: "relative", 
+    paddingBottom: "56.25%", 
+    height: "0", 
+    overflow: "hidden"
+  }}
+>
+  <iframe 
+    src="https://www.loom.com/embed/545ceee0917540169a76af645e985f1c?sid=94960c0a-1c87-46db-8aaf-5d88893ca611"
+    frameBorder="0"
+    allowFullScreen
+    style={{
+      position: "absolute",
+      top: "0",
+      left: "0",
+      width: "100%",
+      height: "100%"
+    }}
+  ></iframe>
+</div>
 
 ## Overview of Rules and Their Actions
 

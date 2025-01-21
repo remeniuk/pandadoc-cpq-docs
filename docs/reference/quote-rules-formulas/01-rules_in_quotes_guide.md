@@ -1,7 +1,27 @@
 # How Rules are Connected to the Quote and How to Build a Rule
 
 In this guide, we will explore how rules interact with the Quote structure, and provide instructions on how to start building your rules.
-
+<div 
+  style={{
+    position: "relative", 
+    paddingBottom: "56.25%", 
+    height: "0", 
+    overflow: "hidden"
+  }}
+>
+  <iframe 
+    src="https://www.loom.com/embed/f06a0769d70d44d5a26dce1fd9c868ca?sid=50f2dc84-478b-4e08-92e7-8b6a1ebfe614"
+    frameBorder="0"
+    allowFullScreen
+    style={{
+      position: "absolute",
+      top: "0",
+      left: "0",
+      width: "100%",
+      height: "100%"
+    }}
+  ></iframe>
+</div>
 
 ## Overview of the Quote
 

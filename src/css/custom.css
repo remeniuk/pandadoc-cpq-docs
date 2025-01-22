@@ -1,5 +1,12 @@
-@import url("https://db.onlinewebfonts.com/c/575fc498ad34ad0f411e618dad9ed36a?family=Graphik+LC+Web+Regular");
-@import url('https://db.onlinewebfonts.com/c/042fdc0ad9bf83440df6afe1bbadf684?family=Graphik+LC+Web+Bold+Regular');
+@font-face {
+  font-family: 'Graphik LC Web Regular';
+  src: url('/fonts/GraphikLCWeb-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Graphik LC Web Bold Regular';
+  src: url('/fonts/GraphikLCWeb-Bold.woff2') format('woff2');
+}
 
 :root {
   --ifm-font-family-base: "Graphik LC Web Regular", sans-serif;
